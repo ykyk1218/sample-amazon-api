@@ -1,0 +1,4 @@
+div
+ - @res.items.each do |item|
+   p = item.get_hash('SmallImage')["URL"]
+   p = item.get('ItemAttributes/Title')
